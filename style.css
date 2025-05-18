@@ -1,0 +1,203 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+/* Navbar */
+body{
+  
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Playwrite DK Loopet", cursive;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+
+}
+.navbar {
+  background-color: #221e1d;
+}
+
+h2{
+  color: #6b605e;
+}
+
+/* Carousel */
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Layout de cardápio */
+.nav-cardapio {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Imagens personalizadas */
+.custom-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Links do menu */
+.nav a {
+  color: aliceblue;
+}
+
+.nav-link {
+  color: #221e1d;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Estado ativo e hover dos links */
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+  outline: none !important;
+  box-shadow: none !important;
+  color: inherit !important;
+  background-color: transparent !important;
+}
+
+/* Link ativo */
+.nav-link.active {
+  background-color: transparent !important;
+  color: #9e9393 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Hover corrigido */
+#cabecalho .nav .nav-link:hover {
+  color: #968683 !important;
+  background-color: transparent !important;
+}
+
+/* Cor do link ativo com id específico */
+#cabecalho .nav .nav-link.active {
+  color: #6b605e !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Botão personalizado */
+.btn-marrom {
+  border: 2px solid #52473f !important;
+  color: #5f534a !important;
+  background-color: transparent !important;
+  transition: all 0.3s ease !important;
+  border-radius: 4px;
+}
+
+.btn-marrom:hover {
+  background-color: #50443c !important;
+  color: #fff !important;
+}
+
+/* Estilização dos inputs */
+.form-control {
+  border: 2px solid #584f49 !important;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #968683 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Ícones redes sociais */
+.social-links i {
+  color: #4b4343;
+}
+
+/* Avisos */
+#avisos {
+  background-color: #dbd7d6 !important;
+  padding-bottom: 110px !important;
+}
+
+/* Ajustes diversos */
+.row text {
+  padding-top: 199px !important;
+}
+
+.espaco-imagens {
+  margin-top: 9px;
+}
+
+#content {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.carousel-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  text-shadow: 1px 1px 4px #000;
+}
+
+section {
+  scroll-margin-top: 160px;
+}
+
+#mensagem {
+  resize: none;
+}
+
+span{
+  color: #1d1b1a;
+}
+
+  
+
+
+@media (max-width: 767px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+  
+
+  .container, .container-fluid {
+    padding-left: 0;
+    padding-right: 30px;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 98%;
+  }
+  .navbar-toggler{
+    background-color: #968683;
+
+  }
+
+  .text-white h2{
+    text-align: center;
+  }
+  h2.text-white {
+  text-align: center;
+}
+.col-md-3 h5,
+.col-md-3 p {
+  text-align: center;
+}
+
+section {
+  scroll-margin-top: 250px;
+}
+}
+
+
+}
+
+
